@@ -1,0 +1,412 @@
+*{ 
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Ubuntumono;
+    src: url(./fonte/ubutu/Ubuntu_Mono/UbuntuMono-Regular.ttf);
+}
+@font-face {
+    font-family: plusjakartasans;
+    src: url(./fonte/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+body{
+    background-color: #16243a;
+    color: white;
+}
+nav{
+    background-color: none;
+    display: flex;
+    width: 100%;
+    height: 124px;
+    border-bottom: solid 2px ;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+    margin-right: 112px;
+    
+    
+}
+#logo{
+   
+
+position: absolute;
+width: 194.74px;
+height: 46.96px;
+margin-left: 112px;
+top: 39px;
+
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li:hover{
+    padding:0px 20px 0px 20px;
+    font-size: 23px;
+}
+header{
+    align-content: center;    
+    text-align: center;
+}
+main{
+    align-content: center;
+}
+#nome{
+    margin-top: 188px;
+    margin-bottom:30px ;
+
+}
+#textn{
+    top: 384px;
+    width: 864px;
+    height: 270px;
+    margin: auto;
+    
+    
+}
+#vetor{
+    z-index: -1;
+    position: absolute;
+     left: 848px;
+    opacity: 40%;
+    width: 400px;
+}
+section{
+  
+    display: flex;
+    
+}
+#verde{
+    font-family: plusjakartasans;
+    background-color: #22525C;
+    width: 1216px;
+    height: 517px;
+    margin: auto; 
+    border-radius: 20px; 
+
+    display: flex; 
+    flex-wrap: wrap;
+}
+#sobre{
+    margin-top: 98px;
+    width: 100%;
+}
+#tit{
+    margin-top: 98px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  
+}
+#text{
+   text-align: center;
+   width: 585px;
+  margin: auto;
+  font-size: 15px;
+  opacity: 50%;
+    
+    
+}
+
+#triplo{
+    margin-top: 70px;
+   width: 199%;
+   display: flex;
+
+}
+.branco{
+    height: 80px;
+    background-color: #fff;
+    width: 385px;
+    height: 260px;
+    margin: auto;
+   border-radius: 20px;
+
+}
+
+#skill{
+    width: 100%;
+    height: 500px;
+   align-items: center;
+   text-align: center;
+
+  
+    
+
+}
+#h1ski{
+    margin-top: 200px;
+    font-size: 40px;
+    font-family: Ubuntumono;
+    margin-bottom: 90px;
+}
+#lang{
+
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 232px;
+    display: grid;
+    grid-template-columns: repeat(6, 180px);
+    grid-template-rows: repeat(2,1fr);
+
+    width: 1218px;
+    height: 140px;
+}
+
+#lang > img, div{
+    margin: auto;
+}
+
+
+.progressbar{
+    width: 88px;
+     height: 7px;
+     background-color: #1b1616; 
+     display: flex;
+     border-radius: 32px;
+ }
+.progressbar::before{
+    content: "";
+    border-radius: 32px;
+}
+#html::before{
+    content: "";
+    width: 60%;
+    background-color:#E44D26;
+}
+#fig::before{
+    content: "";
+    width: 70%;
+    background-color: #A259FF;
+}
+#jv::before{
+    content: "";
+    width: 20%;
+    background-color: #F7DF1E ;
+}
+#css::before{
+    content: "";
+    width: 70%;
+    background-color: #29ABE2;
+}
+#react::before{
+    content: "";
+    width: 0%;
+    background-color: #539E43 ;
+}
+#my::before{
+    content: "";
+    width: 0%;
+    background-color: #00546B;
+}
+
+
+
+
+
+
+
+
+#container{
+    
+    margin: auto;
+    width: 1216px;
+    height: 626px;
+    background: none;
+    font-family: ubuntumono;
+    display: flex;   
+     flex-wrap: wrap;
+  }
+
+#container > h1{
+    text-align: center;
+    margin-bottom: 48px;
+   
+}
+.caixas{
+    background-color: grey;
+    width: 366px;
+    height:245px;
+    border-radius: 30px;
+  
+}
+.caixas>img{
+    width: 178px;
+    height: 222px;
+}
+.robo{   
+margin-top: 27px;
+margin-left: 189px;
+position: absolute;
+opacity: 0.55;
+
+}
+
+
+
+
+
+.foot{
+    font-family: ubuntumono;
+    background-color: #666D79;
+    width: 100%;
+    height: 392px;
+    display:flex;
+    margin-top: 140px;
+    gap: none;
+
+}
+.foot1{
+    width: 42%;
+    height: 392px;
+  
+    overflow: hidden;
+    
+}
+
+#logofoot{
+    display: block;
+    margin-top: 51px;
+    margin-left: 112px;
+}
+#vetofoot{
+    margin-top: 26px;
+   
+}
+
+
+
+.foot2{
+    margin-top: 82px;
+    width: 29%;
+    height: 300px;
+    
+
+   
+}
+.imgsfoot{
+    display: flex;
+}
+.foot2>p{
+    margin-bottom: 35px;
+}
+.foot2>h1{
+    margin-bottom: 35px;
+}
+
+
+
+.foot3{
+    margin-top: 138PX;
+    width: 29%;
+    
+    height: 200PX;
+}
+.foot3>p{
+    margin-bottom: 35px;
+}
+.foot3>h1{
+    margin-bottom: 35px;
+}
+.foot3>.imgsfoot>p{
+   font-size: 32PX;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    body {
+      font-size: 14px;
+    }
+    nav { 
+    
+    height: 100px;
+      display: flex;
+      
+    }
+    ul {
+        margin-left: 1000px;
+      
+         overflow: hidden;
+    }
+  
+    #nome {
+      margin-top: 80px;
+    }
+    #textn {
+        width: 100%;
+     margin-top: 30px;
+     text-align: center;
+     font-size: 12px;
+    }
+    #vetor {
+       
+    }
+    #verde {
+      width: 768px;
+      height: 400px;
+    }
+    #sobre {
+      margin-top: 40px;
+    }
+    #tit {
+      margin-top: 40px;
+    }
+    #text {
+      width: 300px;
+      font-size: 12px;
+    }
+    #triplo {
+      width: 100%;
+    }
+    .branco {
+      width: 200px;
+      height: 160px;
+    }
+    #skill {
+      height: 300px;
+    }
+    #h1ski {
+      font-size: 24px;
+    }
+    #lang {
+      margin-top: 20px;
+      margin-left: 100px;
+      width: 600px;
+      height: 100px;
+    }
+    .progressbar {
+      width: 60px;
+      height: 5px;
+    }
+    #container {
+      width: 768px;
+      height: 400px;
+    }
+    .caixas {
+      width: 200px;
+      height: 160px;
+    }
+    .robo {
+      margin-top: 15px;
+      margin-left: 100px;
+    }
+    .foot {
+      height: 200px;
+    }
+    .foot1 {
+      width: 30%;
+    }
+    .foot2 {
+      width: 20%;
+    }
+    .foot3 {
+      width: 20%;
+    }
+  }
