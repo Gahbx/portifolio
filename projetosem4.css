@@ -229,14 +229,14 @@ section{
     margin-bottom: 48px;
    
 }
-.caixas{
+.projeto{
     background-color: grey;
     width: 366px;
     height:245px;
     border-radius: 30px;
   
 }
-.caixas>img{
+.projeto>img{
     width: 178px;
     height: 222px;
 }
